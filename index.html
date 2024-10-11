@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RedBus</title>
+    <link rel="stylesheet" href="styles.css">
+      
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="header-left">
+            <div class="redbus-logo">
+                <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\redbus_logo.png" alt="RedBus Logo">
+            </div>
+            <div class="train-offer-logo">
+                <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\redbus_logo_3.jpg" alt="Train Tickets Offer Logo">
+            </div>
+            <div class="train-offer-logo">
+                <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\train_logo_1.jpg" alt="Train Tickets Offer Logo">
+            </div>
+        </div>
+
+        <div class="header-right">
+            <!-- Help Button -->
+             <div class="help">
+                <i class="fas fa-headset" style="margin-right: 5px;"></i> Help
+            </div>
+
+            <!-- Language Dropdown -->
+            <div class="language-dropdown">
+                <button class="language-btn">Language</button>
+                <ul class="language-list">
+                    <li>English</li>
+                    <li>Hindi</li>
+                    <li>Kannada</li>
+                    <li>Tamil</li>
+                </ul>
+            </div>
+
+            <!-- Profile and Account Dropdown -->
+            <div class="account-section">
+                <div class="profile-logo">
+                    <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\profile_logo.png" alt="Profile Logo">
+                </div>
+                <button class="account-btn">Account</button>
+                <ul class="account-list">
+                    <li>Cancel Ticket</li>
+                    <li>Change Travel Date</li>
+                    <li>Show My Ticket</li>
+                    <li>Email/SMS</li>
+                    <hr>
+                    <li>Login/Sign Up</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Form Section -->
+    
+    <section class="background-image-section">
+        <h2 class="section-title">India's No. 1 Online Bus Ticket Booking Site</h2> 
+        <div class="search-bar">
+            <input type="text" placeholder="FROM" class="search-input" />
+            <div class="vertical-line"></div>
+            <input type="text" placeholder="TO" class="search-input" />
+            <div class="vertical-line"></div>
+            <input type="date" class="search-input" />
+             
+            <button class="search-button">Search</button>
+        </div>
+    </section>
+                  
+                  
+           
+
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Offers Section -->
+  
+
+<!-- Trending Offers Section -->
+<section class="trending-offers">
+    <div class="offers-header">
+        <h2 class="left">TRENDING OFFERS</h2>
+        <button class="view-all-button right">VIEW ALL</button>
+    </div>
+    <div class="offers-slider-container">
+        <button class="slider-button left" onclick="document.querySelector('.offers-slider').scrollLeft -= 300;"> &lt; </button>
+        <div class="offers-slider">
+            <div class="offer-card">
+                <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\offer_7.jpg" alt="Offer 1">
+                 
+            </div>
+            <div class="offer-card">
+                <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\offer_8.jpg" alt="Offer 2">
+                
+            </div>
+            <div class="offer-card">
+                <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\offer_9.jpg" alt="Offer 3">
+                 
+            </div>
+            <div class="offer-card">
+                <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\offer_10.jpg" alt="Offer 4">
+                
+            </div>
+            <div class="offer-card">
+                <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\offer_11.jpg" alt="Offer 4">
+                 
+            </div>
+            <div class="offer-card">
+                <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\offer_12.jpg" alt="Offer 4">
+                
+            </div>
+            <!-- Add more offer cards as needed -->
+        </div>
+        <button class="slider-button right" onclick="document.querySelector('.offers-slider').scrollLeft += 300;"> &gt; </button>
+    </div>
+</section>
+   
+       
+
+<!-- Government Bus Section -->
+  <!-- Government Buses Section -->
+<section class="government-buses">
+    <div class="gov-buses-header">
+        <h2 class="left">GOVERNMENT BUSES</h2>
+        <button class="gov-view-all-button right">VIEW ALL</button>
+    </div>
+    <div class="gov-slider-container">
+        <button class="slider-button left" onclick="document.querySelector('.gov-slider').scrollLeft -= 300;"> &lt; </button>
+        <div class="gov-slider">
+            <div class="gov-bus-card">
+                <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\bus_1.png" alt="Bus 1">
+                 
+            </div>
+            <div class="gov-bus-card">
+                <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\bus_2.png" alt="Bus 2">
+                 
+            </div>
+            <div class="gov-bus-card">
+                <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\bus_3.png" alt="Bus 3">
+                 
+            </div>
+            <div class="gov-bus-card">
+                <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\bus_4.png" alt="Bus 3">
+                <p>Bus 4 Description</p>
+            </div>
+            <div class="gov-bus-card">
+                <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\bus_5.png" alt="Bus 3">
+                 
+            </div>
+            <div class="gov-bus-card">
+                <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\bus_6.png" alt="Bus 3">
+                 
+            </div>
+             
+            <!-- Add more government bus cards as needed -->
+        </div>
+        <button class="slider-button right" onclick="document.querySelector('.gov-slider').scrollLeft += 300;"> &gt; </button>
+    </div>
+</section>
+ 
+<section class="advertisement">
+    <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\advertise_6.png" alt="Advertisement">
+    <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\advertise_5.png" alt="Advertisement">
+    <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\advertise_1.png" alt="Advertisement">
+</section>
+
+<!-- Global Presence Section -->
+<section class="global-presence">
+    <h2>Global Presence</h2>
+    <div class="flag-container">
+        <div class="flag-item">
+            <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\India.png" alt="Country 1" class="flag">
+            <button class="flag-name-button">INDIA</button>
+        </div>
+        <div class="flag-item">
+            <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\New Zealand.png" alt="Country 2" class="flag">
+            <button class="flag-name-button">NEW ZEALAND</button>
+        </div>
+        <div class="flag-item">
+            <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\iran.png" alt="Country 3" class="flag">
+            <button class="flag-name-button">IRAN</button>
+        </div>
+        <div class="flag-item">
+            <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\France.png" alt="Country 4" class="flag">
+            <button class="flag-name-button">FRANCE</button>
+        </div>
+        <div class="flag-item">
+            <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\England.png" alt="Country 5" class="flag">
+            <button class="flag-name-button">ENGLAND</button>
+        </div>
+        <div class="flag-item">
+            <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\Brazil.png" alt="Country 6" class="flag">
+            <button class="flag-name-button">BRAZIL</button>
+        </div>
+        <div class="flag-item">
+            <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\South Africa.png" alt="Country 6" class="flag">
+            <button class="flag-name-button">SOUTH AFRICA</button>
+        </div>
+        <div class="flag-item">
+            <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\America.png" alt="Country 6" class="flag">
+            <button class="flag-name-button">AMERICA</button>
+        </div>
+        
+        <!-- Add more flags and buttons as needed -->
+    </div>
+</section>
+<!-- Existing Global Presence Section -->
+
+<!-- redDeals Section: Bus Booking redDeals on redBus -->
+<section class="redDeals-section">
+    <h2 class="sections-title">Bus Booking redDeals on redBus</h2>
+    <p class="redDeals-description">
+        Don't miss out on these incredible offers, book your bus tickets now and travel with convenience and affordability. Hurry, grab the best bus booking deals before they're gone!
+    </p>
+
+    <div class="redDeals-box">
+        <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\redbus_logo.png" alt="Logo" class="redDeals-logo">
+        <div class="redDeals-info">
+            <p class="redDeals-offer">
+                Unlock Unbeatable Exclusive redDeals! <strong>20% OFF</strong>
+            </p>
+            <p class="redDeals-stats">
+                <span>3363</span> Deals | <span>1577</span> Bus Operators | <span>337353</span> Routes
+            </p>
+        </div>
+        <button class="redDeals-button">BOOK NOW</button>
+    </div>
+</section>
+
+
+
+
+
+ 
+           
+
+
+
+        <!-- RedBus Information Section -->
+        <section class="about-redbus">
+            <h2>BOOK BUS TICKETS ONLINE</h2>
+            <p>RedBus is the world’s largest online bus ticket booking service trusted by over 18 million customers globally. 
+            You can book tickets for buses and trains across India through the redBus platform, offering a seamless and secure booking experience. 
+            Find the best deals, choose your preferred seats, and enjoy a smooth travel experience.</p>
+            <p>With the RedBus app or website, you can book your bus tickets online in less than a minute. From luxury buses to sleeper buses, RedBus provides comprehensive options for safe, convenient, and affordable travel.</p>
+            <p>redBus places a strong emphasis on safety and reliability. The platform partners with trusted bus operators to ensure that all listed services meet high standards of safety and comfort. Additionally, redBus provides features such as live bus tracking, allowing passengers to stay informed about their travel progress. With a dedicated customer support team available around the clock, travelers can rest assured that assistance is just a call or click away, whether they need help with bookings or have questions during their journey.</p>
+            <p>In its pursuit of excellence, redBus is also committed to sustainability and social responsibility. The company actively promotes eco-friendly travel options and encourages the use of public transportation to reduce the carbon footprint. By leveraging technology and data analytics, redBus strives to optimize routes and improve operational efficiency, contributing to a greener future for travel in India. As redBus continues to grow, it remains focused on delivering exceptional service and value to its customers while embracing innovative practices that shape the future of travel.</p>
+         </section>
+
+         
+ 
+          
+             <div class="faq-section">
+                 <h2>FAQs related to Bus Tickets Booking</h2>
+                 
+                 <div class="faq-categories">
+                     <a href="#general" class="faq-category">GENERAL</a>
+                     <a href="#ticket" class="faq-category">TICKET RELATED</a>
+                     <a href="#payment" class="faq-category">PAYMENT</a>
+                     <a href="#cancellation" class="faq-category">CANCELLATION & REFUND</a>
+                     <a href="#insurance" class="faq-category">INSURANCE</a>
+                 </div>
+         
+                 <div class="faq-questions" id="general">
+                     
+                     <div class="faq-item">
+                         <div class="faq-question">
+                             <span>What is the cancellation policy?</span>
+                             <span class="faq-toggle">+</span>
+                         </div>
+                         <div class="faq-answer">You can cancel your ticket up to 2 hours before departure for a full refund.</div>
+                     </div>
+                     <div class="faq-item">
+                         <div class="faq-question">
+                             <span>How can I contact customer support?</span>
+                             <span class="faq-toggle">+</span>
+                         </div>
+                         <div class="faq-answer">You can reach customer support at 123-456-7890 or support@example.com.</div>
+                     </div>
+                     <div class="faq-item">
+                        <div class="faq-question">
+                            <span>What are the advantages of purchasing a bus ticket with redBus?</span>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">There are many advantages to purchasing online bus tickets with redBus. redBus is India’s most trusted bus ticket company, where you can book any type of private or government-owned bus. redBus allows you to find the different types of buses, choose the preferred bus seats, and find your nearest boarding and dropping points. You can also filter the buses based on timings, like morning, evening, etc. </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Why book bus tickets online on redBus?</span>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">Booking bus tickets online on redBus is increasingly becoming the preferred choice for travellers due to its numerous advantages over traditional methods. With redBus, customers can book their bus tickets effortlessly from the comfort of their homes, avoiding the inconvenience of standing in long lines at bus stations or travel agencies. Online bus booking offers the luxury of comparing different bus schedules and operators and presents various discount offers and exclusive deals, resulting in significant savings. Payment security is another notable feature of online booking, which ensures that your financial information is well-protected against fraud. Additionally, customers can pick their seats, providing a customized travel experience. Online bus booking platforms give real-time updates about any changes in the bus timetable, including delays or cancellations, enabling better planning. The convenience doesn't stop here; travellers can even compare onboard amenities like charging points or snacks, further enhancing the travel experience.</div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Do I need to create an account on the redBus site to book my bus ticket?</span>
+                            <span class="faq-toggle">+</span>
+                        </div>
+                        <div class="faq-answer">No, you don’t have to create an account on the redBus site to book your bus ticket. But it is advisable to make one to accelerate the process next time you want to book bus tickets. Also, redBus has many discounts and offers that you can easily access if you have an account with us.</div>
+                    </div>
+                 </div>
+         
+                 <div class="faq-questions" id="ticket">
+                      
+                     <div class="faq-item">
+                         <div class="faq-question">
+                             <span>How do I change my ticket?</span>
+                             <span class="faq-toggle">+</span>
+                         </div>
+                         <div class="faq-answer">To change your ticket, please visit our website or contact customer support.</div>
+                     </div>
+                 </div>
+         
+                 <div class="faq-questions" id="payment">
+                     
+                     <div class="faq-item">
+                         <div class="faq-question">
+                             <span>What payment methods are accepted?</span>
+                             <span class="faq-toggle">+</span>
+                         </div>
+                         <div class="faq-answer">We accept all major credit cards, debit cards, and PayPal.</div>
+                     </div>
+                 </div>
+         
+                 <div class="faq-questions" id="cancellation">
+                     
+                     <div class="faq-item">
+                         <div class="faq-question">
+                             <span>How do I get a refund?</span>
+                             <span class="faq-toggle">+</span>
+                         </div>
+                         <div class="faq-answer">Refunds are processed automatically within 5-7 business days.</div>
+                     </div>
+                 </div>
+         
+                 <div class="faq-questions" id="insurance">
+                     
+                     <div class="faq-item">
+                         <div class="faq-question">
+                             <span>Is travel insurance included?</span>
+                             <span class="faq-toggle">+</span>
+                         </div>
+                         <div class="faq-answer">Travel insurance is available for purchase during the booking process.</div>
+                     </div>
+                 </div>
+             </div>
+
+             <!DOCTYPE html>
+             <html lang="en">
+             <head>
+                 <meta charset="UTF-8">
+                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                 <link rel="stylesheet" href="styles.css">
+                 <title>Bus Booking Info</title>
+             </head>
+             <body>
+                 <div class="content-section">
+                     <form class="dropdown-form">
+                         <!-- First Row: POPULAR BUS ROUTES -->
+                         <div class="form-row">
+                             <span class="form-label">POPULAR BUS ROUTES</span>
+                             <span class="form-dropdown">&#9662;</span> <!-- Dropdown symbol -->
+                         </div>
+                         <hr class="horizontal-line">
+                         <p class="dropdown-content">Details about popular bus routes...</p>
+             
+                         <!-- Second Row: POPULAR CITIES -->
+                         <div class="form-row">
+                             <span class="form-label">POPULAR CITIES</span>
+                             <span class="form-dropdown">&#9662;</span> <!-- Dropdown symbol -->
+                         </div>
+                         <hr class="horizontal-line">
+                         <p class="dropdown-content">Details about popular cities...</p>
+             
+                         <!-- Third Row: POPULAR BUS OPERATORS -->
+                         <div class="form-row">
+                             <span class="form-label">POPULAR BUS OPERATORS</span>
+                             <span class="form-dropdown">&#9662;</span> <!-- Dropdown symbol -->
+                         </div>
+                         <hr class="horizontal-line">
+                         <p class="dropdown-content">Details about popular bus operators...</p>
+                     </form>
+             
+                     <!-- Logo and Description -->
+                     <div class="info-container">
+                     <div class="logo-section">
+                         <img src="C:\Users\Prashantha T\Desktop\Bus Ticket_1\images\redbus_logo.png" alt="redBus Logo" class="logo">
+                         <p class="description">redBus is the world's largest online bus ticket booking service trusted by over 25 million happy customers globally. redBus offers bus ticket booking through its website, iOS and Android mobile apps for all major routes.</p>
+                     </div>
+             
+                     <!-- Four Columns -->
+                     <div class="five-columns">
+                         <div class="column">
+                             <h4><strong>About redBus</strong></h4>
+                             <p>About us</p>
+                             <p>Investor Relations</p>
+                             <p>Contact us</p>
+                             <p>Mobile version</p>
+                             <p>redBus on mobile</p>
+                             <p>Sitemap</p>
+                             <p>Offers</p>
+                             <p>Careers</p>
+                             <p>Values</p>
+                         </div>
+                         <div class="column">
+                             <h4><strong>Info</strong></h4>
+                             <p>T&C</p>
+                             <p>Privacy policy</p>
+                             <p>FAQ</p>
+                             <p>Blog</p>
+                             <p>Bus operator registration</p>
+                             <p>Agent registration</p>
+                             <p>Insurance partner</p>
+                             <p>User agreement</p>
+                             <p>Primo Bus</p>
+                             <p>Bus Timetable</p>
+                         </div>
+                         <div class="column">
+                             <h4><strong>Global Sites</strong></h4>
+                             <p>India</p>
+                             <p>Singapore</p>
+                             <p>Malaysia</p>
+                             <p>Indonesia</p>
+                             <p>Peru</p>
+                             <p>Colombia</p>
+                             <p>Cambodia</p>
+                             <p>Vietnam</p>
+                         </div>
+                         <div class="column">
+                            <h4><strong>Our Partners</strong></h4>
+                            <p>Goibibo Bus</p>
+                            <p>Goibibo Hotels</p>
+                            <p>Makemytrip Hotels</p>
+                        </div>
+                     </div>
+                     </div>
+             
+                     
+             
+                     <!-- Horizontal Line -->
+                     <hr class="horizontal-line">
+             
+                     <!-- Footer with sentence and social media icons -->
+                     <div class="footer-section">
+                         <p>Ⓒ 2024 Redbus India Pvt Ltd. All rights reserved</p>
+                         <div class="social-icons">
+                            <i class="fab fa-instagram" style="font-size: 24px; margin-right: 15px;"></i>
+                            <i class="fab fa-linkedin" style="font-size: 24px; margin-right: 15px;"></i>
+                            <i class="fab fa-facebook" style="font-size: 24px; margin-right: 15px;"></i>
+                            <i class="fab fa-twitter" style="font-size: 24px; margin-right: 15px;"></i>
+                        </div>
+                     </div>
+                 </div>
+             </body>
+             </html>
+             
+
+       
+ 
+
+         
+         
+          
+ 
+
+
+ 
+               
+
+    <script>
+        // JavaScript to toggle the dropdowns
+        document.querySelector('.language-btn').addEventListener('click', function() {
+            this.classList.toggle('active');
+        });
+
+        document.querySelector('.account-btn').addEventListener('click', function() {
+            this.classList.toggle('active');
+        });
+
+        // JavaScript for FAQ section
+        document.querySelectorAll('.faq-question').forEach(item => {
+            item.addEventListener('click', () => {
+                const answer = item.nextElementSibling;
+                const toggle = item.querySelector('.faq-toggle');
+                if (answer.style.display === 'block') {
+                    answer.style.display = 'none';
+                    toggle.textContent = '+';
+                } else {
+                    answer.style.display = 'block';
+                    toggle.textContent = '-';
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
